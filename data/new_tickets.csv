@@ -1,0 +1,21 @@
+Ticket_ID,Customer_Description,Product,Fix_Applied,Resolution_Time,Error_Nemonics,Tags
+T101,Customer reports login failure on ModuleA,ModuleA,Restart Auth Service,15,E101,authentication
+T102,Customer unable to reset password,ModuleA,Reset password link reissued,20,E102,password
+T103,ModuleB crashes when uploading file,ModuleB,Patch applied for file upload bug,45,E103,file upload
+T104,Slow dashboard load in ModuleC,ModuleC,Optimized SQL queries,120,E104,performance
+T105,User session timing out early,ModuleA,Extended session timeout config,30,E105,session
+T106,Export to PDF not working in ModuleD,ModuleD,Fixed PDF export dependency,60,E106,export
+T107,ModuleB fails intermittently,ModuleB,Added retry logic in backend,50,E107,reliability
+T108,ModuleC chart not rendering,ModuleC,Upgraded charting library,70,E108,visual
+T109,ModuleA multi-factor auth failing,ModuleA,Synced time server with MFA,40,E109,authentication
+T110,Customer sees error 403 on login,ModuleA,Permissions updated,35,E110,authorization
+T111,Mobile app not syncing ModuleB data,ModuleB,Updated mobile API client,90,E111,mobile
+T112,ModuleC notifications not triggering,ModuleC,Fixed cron job scheduler,55,E112,notifications
+T113,ModuleD UI misaligned in Safari,ModuleD,Added browser-specific CSS fix,20,E113,UI
+T114,Customer reports logout not working,ModuleA,Fixed token revocation logic,25,E114,authentication
+T115,ModuleB integration failing with SSO,ModuleB,Patched SSO callback handler,60,E115,sso
+T116,Dashboard graphs missing,ModuleC,Corrected dashboard data endpoint,50,E116,UI
+T117,File size upload limit exceeded error,ModuleB,Increased file upload limit,30,E117,file upload
+T118,PDF invoice footer missing,ModuleD,Corrected invoice template,40,E118,export
+T119,Product key invalid error,ModuleA,Revalidated key verification API,35,E119,licensing
+T120,ModuleC email alerts not received,ModuleC,Reconfigured SMTP relay,80,E120,email

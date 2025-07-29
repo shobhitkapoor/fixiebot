@@ -1,0 +1,101 @@
+Ticket_ID,Customer_Description,Product,Fix_Applied,Resolution_Time,Error_Nemonics,Tags
+T001,Customer reports login failure on ModuleA,ModuleA,Restart Auth Service,15,E001,authentication
+T002,Customer unable to reset password,ModuleA,Reset password link reissued,20,E002,password
+T003,ModuleB crashes when uploading file,ModuleB,Patch applied for file upload bug,45,E003,file upload
+T004,Slow dashboard load in ModuleC,ModuleC,Optimized SQL queries,120,E004,performance
+T005,User session timing out early,ModuleA,Extended session timeout config,30,E005,session
+T006,Export to PDF not working in ModuleD,ModuleD,Fixed PDF export dependency,60,E006,export
+T007,ModuleB fails intermittently,ModuleB,Added retry logic in backend,50,E007,reliability
+T008,ModuleC chart not rendering,ModuleC,Upgraded charting library,70,E008,visual
+T009,ModuleA multi-factor auth failing,ModuleA,Synced time server with MFA,40,E009,authentication
+T010,Customer sees error 403 on login,ModuleA,Permissions updated,35,E010,authorization
+T011,Mobile app not syncing ModuleB data,ModuleB,Updated mobile API client,90,E011,mobile
+T012,ModuleC notifications not triggering,ModuleC,Fixed cron job scheduler,55,E012,notifications
+T013,ModuleD UI misaligned in Safari,ModuleD,Added browser-specific CSS fix,20,E013,UI
+T014,Customer reports logout not working,ModuleA,Fixed token revocation logic,25,E014,authentication
+T015,ModuleB integration failing with SSO,ModuleB,Patched SSO callback handler,60,E015,sso
+T016,Dashboard graphs missing,ModuleC,Corrected dashboard data endpoint,50,E016,UI
+T017,File size upload limit exceeded error,ModuleB,Increased file upload limit,30,E017,file upload
+T018,PDF invoice footer missing,ModuleD,Corrected invoice template,40,E018,export
+T019,Product key invalid error,ModuleA,Revalidated key verification API,35,E019,licensing
+T020,ModuleC email alerts not received,ModuleC,Reconfigured SMTP relay,80,E020,email
+T021,Crash on save in ModuleD form,ModuleD,Handled null values in form,60,E021,form
+T022,Profile picture not uploading,ModuleB,Enabled image MIME types,45,E022,upload
+T023,ModuleC settings not saving,ModuleC,Fixed settings persistence logic,55,E023,settings
+T024,Button unresponsive on mobile,ModuleD,Improved touch support,30,E024,UI
+T025,SSO not redirecting after login,ModuleA,Fixed SSO redirect URI mismatch,50,E025,sso
+T026,Recurring tasks duplicating,ModuleC,Added duplication check logic,40,E026,task
+T027,ModuleB report CSV empty,ModuleB,Fixed CSV data generation,70,E027,export
+T028,Dropdown values not loading,ModuleD,Updated API data source,35,E028,UI
+T029,Error 500 on dashboard load,ModuleC,Fixed backend exception handler,75,E029,performance
+T030,Language not changing in ModuleA,ModuleA,Resolved locale mismatch bug,45,E030,international
+T031,Logo not appearing on report,ModuleD,Added image asset path,40,E031,export
+T032,ModuleB audit log missing,ModuleB,Enabled logging in backend,55,E032,log
+T033,ModuleC calendar not syncing,ModuleC,Refreshed calendar sync tokens,65,E033,sync
+T034,Tooltip overlapping button,ModuleD,Tuned CSS z-index layer,25,E034,UI
+T035,ModuleA stuck in maintenance mode,ModuleA,Reset feature flags,35,E035,settings
+T036,Customer unable to download attachment,ModuleB,Fixed file download endpoint,50,E036,download
+T037,Search returns irrelevant results,ModuleC,Improved relevance algorithm,90,E037,search
+T038,Dark mode toggle not saved,ModuleD,Stored toggle state in DB,30,E038,settings
+T039,Expired tokens not getting cleared,ModuleA,Added token expiration cron,55,E039,authentication
+T040,Report printing alignment off,ModuleD,Tweaked print stylesheet,45,E040,print
+T041,Profile updates not saved,ModuleB,Fixed DB update trigger,60,E041,profile
+T042,Charts not responsive on resize,ModuleC,Used responsive chart library,40,E042,UI
+T043,Notification sound not playing,ModuleD,Restored audio resource,30,E043,notifications
+T044,Payment gateway fails on retry,ModuleA,Handled retry logic in gateway,80,E044,payment
+T045,Task history not displaying,ModuleC,Fixed history API pagination,50,E045,task
+T046,Video tutorials not loading,ModuleD,Updated CDN paths,35,E046,media
+T047,ModuleB feedback form error,ModuleB,Handled empty form field,25,E047,form
+T048,Customer sees wrong currency,ModuleA,Corrected locale currency code,45,E048,international
+T049,ModuleC task filters broken,ModuleC,Corrected filter logic,40,E049,task
+T050,Chart labels overlap in PDF,ModuleD,Reduced label font size,30,E050,export
+T051,SSO fails on iOS Safari,ModuleB,Fixed cross-origin redirect,60,E051,sso
+T052,Checkbox state not saved,ModuleC,Refactored input handler,30,E052,form
+T053,Customer gets duplicated emails,ModuleA,Checked for duplicate triggers,55,E053,email
+T054,Mobile push notifications fail,ModuleB,Updated push token registration,70,E054,mobile
+T055,Form data lost on refresh,ModuleC,Enabled auto-save logic,40,E055,form
+T056,ModuleD preview not rendering,ModuleD,Fixed preview template parsing,65,E056,UI
+T057,ModuleA not loading on Edge,ModuleA,Added polyfill support,45,E057,compatibility
+T058,Password reset code expired early,ModuleB,Updated expiration policy,30,E058,password
+T059,ModuleC audit log delayed,ModuleC,Refactored event streaming,70,E059,log
+T060,Grid table misalignment,ModuleD,Tuned CSS padding logic,25,E060,UI
+T061,Customer sees multiple alerts,ModuleA,De-duped alerts logic,35,E061,notifications
+T062,No confirmation on form submit,ModuleB,Added submit confirmation popup,20,E062,form
+T063,ModuleC search infinite scroll fails,ModuleC,Fixed scroll event bug,45,E063,search
+T064,User can't edit address,ModuleD,Updated address component,40,E064,profile
+T065,Customer session stuck open,ModuleA,Force logout inactive sessions,50,E065,session
+T066,Date format wrong in report,ModuleD,Localized date formatter,35,E066,export
+T067,SSO fails on slow network,ModuleB,Increased SSO timeout,60,E067,sso
+T068,Upload limit too small,ModuleB,Increased upload buffer size,30,E068,file upload
+T069,ModuleC duplicate tasks showing,ModuleC,Fixed task deduplication,40,E069,task
+T070,ModuleA language not retained,ModuleA,Stored locale in user prefs,45,E070,international
+T071,ModuleD scrollbar not visible,ModuleD,Styled scrollbar for dark mode,25,E071,UI
+T072,Profile avatar distortion,ModuleB,Tuned image scaling CSS,35,E072,profile
+T073,Customer email sent twice,ModuleA,Fixed duplicate job trigger,30,E073,email
+T074,PDF download fails on Firefox,ModuleD,Patched file headers for FF,40,E074,export
+T075,ModuleC task reassignment error,ModuleC,Repaired task permission logic,55,E075,task
+T076,Dashboard shows old stats,ModuleA,Enabled cache invalidation,35,E076,performance
+T077,Wrong report name shown,ModuleD,Corrected title binding,20,E077,export
+T078,Search autocomplete broken,ModuleC,Refactored search input debounce,45,E078,search
+T079,Invoice currency mismatch,ModuleA,Fixed FX conversion logic,50,E079,finance
+T080,PDF page breaks wrong,ModuleD,Tuned print margins,30,E080,export
+T081,Notification banner not disappearing,ModuleC,Auto-hide banner after 5s,25,E081,UI
+T082,User unable to submit feedback,ModuleB,Fixed feedback endpoint,30,E082,form
+T083,Charts overlap in small screens,ModuleC,Used dynamic sizing logic,35,E083,UI
+T084,Exported CSV encoding wrong,ModuleD,Set UTF-8 BOM for CSV,20,E084,export
+T085,Tasks not updating in real-time,ModuleC,Enabled websocket push,70,E085,task
+T086,Customer sees debug logs,ModuleA,Disabled debug mode in prod,25,E086,settings
+T087,Auto-login fails on restart,ModuleB,Stored token securely,45,E087,authentication
+T088,Wrong profile shown,ModuleC,Checked session identity,50,E088,profile
+T089,PDF watermark missing,ModuleD,Added watermark layer,40,E089,export
+T090,Form validation too strict,ModuleB,Relaxed required field rules,35,E090,form
+T091,Scroll freezes on dashboard,ModuleC,Reduced DOM elements,60,E091,performance
+T092,Missing translations,ModuleA,Completed i18n catalog,30,E092,international
+T093,App crashes on login,ModuleB,Added error boundary,40,E093,authentication
+T094,Task export not downloadable,ModuleC,Fixed file output logic,35,E094,export
+T095,ModuleD help button unresponsive,ModuleD,Bound event handler,25,E095,UI
+T096,Customer sees 401 error,ModuleA,Updated auth middleware,35,E096,authentication
+T097,Push notifications delayed,ModuleB,Re-tuned FCM parameters,50,E097,notifications
+T098,Dashboard not updating stats,ModuleC,Fixed stats polling interval,60,E098,performance
+T099,Preview breaks with emoji,ModuleD,Handled unicode gracefully,40,E099,UI
+T100,App logs out suddenly,ModuleA,Fixed token refresh logic,45,E100,session
